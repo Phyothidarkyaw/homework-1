@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind Project</title>
+    <link rel="stylesheet" href="./output.css" />
+    <link rel="stylesheet" href="./input.css" />
+    <link
+      rel="stylesheet"
+      href="../node_modules/@fortawesome/fontawesome-free/css/all.css"
+    />
+  </head>
+  <body>
+
+    <!-- hero section  -->
+    <main>
+
+      <!-- navigation -->
+      <nav>
+        <div class="flex justify-between items-center max-w-6xl mx-auto py-5">
+          <!-- Logo -->
+          <div class="flex items-center">
+            <img src="../images/Logomark.png" alt="" class="w-[40px]" />
+            <span class="font-bold text-xl pl-3">Landify</span>
+            <sup><span class="font-semibold">&trade;</span></sup>
+          </div>
+
+          <!-- Menu -->
+          <div class="font-semibold flex text-sm space-x-7">
+            <ul class="flex gap-4 items-center">
+              <li>About Us</li>
+              <li>Services</li>
+              <li>Portfolio</li>
+              <li>Awards</li>
+            </ul>
+
+            <button class="text-white bg-violet-800 rounded-md px-2 py-1.5">
+              Contact
+            </button>
+          </div>
+        </div>
+      </nav>
+
+      <!-- first section  -->
+      <section>
+        <div class="columns-2">
+          <!-- child 1 -->
+          <div class="flex items-center h-[700px]">
+            <div class="pl-24">
+              <h1 class="text-5xl font-bold max-w-md leading-snug">
+                Workspace that inspire you
+              </h1>
+              <p class="text-gray-700 mt-3 mb-7">
+                We help you building the dreams and bring more than you expect
+              </p>
+              <div class="flex space-x-3 items-center">
+                <div>
+                  <i class="fa-regular fa-circle-play fa-2x"></i>
+                </div>
+                <hr class="border-1.5 border-black w-20 mx-auto my-4" />
+                <p class="font-semibold text-sm text-gray-800">DISCOVER</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- child 2 -->
+          <div class="relative h-[700px]">
+            <img
+              class="absolute bottom-0 right-0 w-[380px]"
+              src="../images/homepic.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- second section  -->
+    <section>
+      <div class="grid grid-cols-4 gap-x-10 py-16 max-w-6xl mx-auto">
+        <div class="border-l-2 border-violet-800 px-4">
+          <h1 class="font-semibold text-3xl">850</h1>
+          <p class="text-gray-700">Buildings constructed</p>
+        </div>
+
+        <div class="border-l-2 border-violet-800 px-4">
+          <h1 class="font-semibold text-3xl">578</h1>
+          <p class="text-gray-700">Homes sold</p>
+        </div>
+
+        <div class="border-l-2 border-violet-800 px-4">
+          <h1 class="font-semibold text-3xl">97</h1>
+          <p class="text-gray-700">Dedicated Members</p>
+        </div>
+
+        <div class="border-l-2 border-violet-800 px-4">
+          <h1 class="font-semibold text-3xl">24</h1>
+          <p class="text-gray-700">Awards won</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Third section  -->
+    <section>
+      <div class="max-w-6xl mx-auto py-16">
+        <!-- child1 -->
+        <div class="mb-8">
+          <h1 class="text-4xl font-bold">Solutions for your dream</h1>
+        </div>
+
+        <!-- child2 -->
+        <div class="grid grid-cols-3">
+          <div>
+            <img src="../images/Architecture.png" alt="" class="w-7 pb-5" />
+            <h1 class="text-2xl font-semibold pb-2">Architecture</h1>
+            <p class="text-sm text-gray-700 pb-5">
+              Add multiple links in Instagram instead of just one.
+            </p>
+            <a href="" class="text-sm text-violet-800">
+              Know more
+              <span class="px-2"
+                ><i
+                  class="fa-solid fa-arrow-right fa-sm"
+                  style="color: #5b21b6"
+                ></i
+              ></span>
+            </a>
+          </div>
+
+          <div>
+            <img src="../images/Interiordesign.png" alt="" class="w-7 pb-5" />
+            <h1 class="text-2xl font-semibold pb-2">Interior design</h1>
+            <p class="text-sm text-gray-700 pb-5">
+              Easy communication with your clients
+            </p>
+            <a href="" class="text-sm text-violet-800">
+              Know more
+              <span class="px-2"
+                ><i
+                  class="fa-solid fa-arrow-right fa-sm"
+                  style="color: #5b21b6"
+                ></i
+              ></span>
+            </a>
+          </div>
+
+          <div>
+            <img src="../images/Realestate.png" alt="" class="w-7 pb-5" />
+            <h1 class="text-2xl font-semibold pb-2">Real estate</h1>
+            <p class="text-sm text-gray-700 pb-5">
+              Capture leads and grow your business with them.
+            </p>
+            <a href="" class="text-sm text-violet-800">
+              Know more
+              <span class="px-2"
+                ><i
+                  class="fa-solid fa-arrow-right fa-sm"
+                  style="color: #5b21b6"
+                ></i
+              ></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- pictures -->
+    <section class="max-w-6xl mx-auto py-16">
+      <div>
+        <h1 class="font-bold mb-10">SELECTED WORKS</h1>
+      </div>
+
+      <div class="grid grid-cols-3 gap-5">
+        <div>
+          <img
+            src="../images/one.jpg"
+            alt=""
+            class="w-full h-[400px] object-cover"
+          />
+        </div>
+
+        <div>
+          <img
+            src="../images/two.jpg"
+            alt=""
+            class="w-full h-[400px] object-cover"
+          />
+        </div>
+
+        <div>
+          <img
+            src="../images/three.jpg"
+            alt=""
+            class="w-full h-[400px] object-cover"
+          />
+        </div>
+
+        <div>
+          <img
+            src="../images/four.jpg"
+            alt=""
+            class="w-full h-[400px] object-cover"
+          />
+        </div>
+
+        <div>
+          <img
+            src="../images/five.jpg"
+            alt=""
+            class="w-full h-[400px] object-cover"
+          />
+        </div>
+
+        <div>
+          <img
+            src="../images/six.jpg"
+            alt=""
+            class="w-full h-[400px] object-cover"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- text  -->
+    <section class="max-w-6xl mx-auto py-16">
+      <div class="space-y-5">
+        <div class="justify-items-center">
+          <img src="../images/quote.png" alt="" />
+        </div>
+
+        <div class="text-center">
+          <p>
+            With the help of Landify I have created a landing page for my
+            startup.
+          </p>
+          <p>The UI kit is so intuitive and easy to use.</p>
+        </div>
+
+        <div class="flex justify-between">
+          <img src="../images/left arrow.png" alt="" class="w-10 h-10" />
+          <hr class="border-2 border-gray-200 w-8 mx-auto mt-8" />
+          <img src="../images/right arrow.png" alt="" class="w-10 h-10" />
+        </div>
+
+        <div class="justify-items-center space-y-3">
+          <div class="text-3xl font-semibold text-center">
+            <p>servicen<span class="text-green-300">o</span>w<sub><span class="text-gray-700 ">&reg;</span></sub></p>
+          </div>
+          <ul class="flex space-x-2 text-xs">
+            <li class="font-semibold">Floyd Miles</li>
+            <li class="text-gray-700">Vice President,</li>
+            <li class="text-gray-700">GoPro</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- input box -->
+    <section>
+      <div class="columns-2">
+        <!-- child 1 -->
+        <div class="">
+          <img
+            class="w-full h-[700px] object-cover"
+            src="../images/two woman.jpg"
+            alt=""
+          />
+        </div>
+
+        <!-- child 2 -->
+        <div class="h-[700px]">
+          <div class="space-y-10 p-20">
+            <div>
+              <h1 class="text-5xl font-bold max-w-md leading-snug">
+                Get in touch
+              </h1>
+              <p class="text-gray-700">
+                Have an enquiry? Fill out the form to contact out team
+              </p>
+            </div>
+
+            <div class="space-y-6 text-xs">
+              <div class="columns-2">
+                <div class="space-y-2">
+                  <label for="fname">First name</label><br />
+                  <input
+                    type="text"
+                    id="fname"
+                    class="border border-gray-300 rounded-md w-full h-[40px]"
+                  /><br />
+                </div>
+                <div class="space-y-2">
+                  <label for="lname">Last name</label><br />
+                  <input
+                    type="text"
+                    id="lname"
+                    class="border border-gray-300 rounded-md w-full h-[40px]"
+                  /><br />
+                </div>
+              </div>
+
+              <div class="space-y-2">
+                <label for="email">Email Address</label><br />
+                <input
+                  type="email"
+                  id="email"
+                  class="border border-gray-300 rounded-md w-full h-[40px]"
+                /><br />
+              </div>
+
+              <div class="space-y-2">
+                <label for="message">Message</label><br />
+                <input
+                  type="text"
+                  id="message"
+                  class="border border-gray-300 rounded-md w-full h-[100px]"
+                /><br />
+              </div>
+
+              <button class="text-white bg-violet-700 rounded-lg px-5 py-3.5">
+                Send Message
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer  -->
+    <section class="text-white bg-black">
+      <div>
+        <div class="justify-items-center space-y-7 py-16">
+          <div class="flex items-center">
+            <img src="../images/Logomark.png" alt="" class="w-[40px]" />
+            <span class="font-bold text-xl pl-3">Landify</span>
+            <sup><span class="font-semibold">&trade;</span></sup>
+          </div>
+
+          <div class="flex text-sm space-x-7">
+            <ul class="flex gap-4 items-center">
+              <li>About</li>
+              <li>Services</li>
+              <li>Awards</li>
+              <li>News</li>
+              <li>Blog</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+        </div>
+
+        <div
+          class="max-w-6xl mx-auto py-8 flex justify-between items-center border-t-2 border-gray-800 text-xs"
+        >
+          <div>
+            <span>&copy;</span> 2021 Landify UI Kit. All rights reserved
+          </div>
+
+          <div class="flex space-x-5 h-[25px]">
+            <img src="../images/instagram.png" alt="" />
+            <img src="../images/dribble.png" alt="" />
+            <img src="../images/twitter.png" alt="" />
+            <img src="../images/youtube.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
